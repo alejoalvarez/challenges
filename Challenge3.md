@@ -1,7 +1,7 @@
 Challenge 3: Validar si dos palabra son anagramas
 
 # Description:
-Se requiere realizar un algoritmoq que valide si dos palabras son anagramas 
+Se requiere realizar un algoritmo que valide si dos palabras son anagramas 
 
 **Examples:**
 
