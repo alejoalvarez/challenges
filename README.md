@@ -2,7 +2,8 @@
 Multiples challenges about code 
 
 <details>
-<summary>Challenge 1:</summary>
+<summary><span style="color:green">Challenge 1 </span></summary>
+
 
 Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the form of a phone number.
 
@@ -16,7 +17,7 @@ The returned format must be correct in order to complete this challenge. Don't f
 </details>
 
 <details>
-<summary>Challenge 2:</summary>
+<summary><span style="color:green">Challenge 2</summary>
 
 Stop gninnipS My sdroW!
 
@@ -38,7 +39,7 @@ spinWords("This is another test") => "This is rehtona test"
 </details>
 
 <details>
-<summary>Challenge 3:</summary>
+<summary><span style="color:green">Challenge 3</summary>
 
 # Description:
 
