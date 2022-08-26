@@ -20,7 +20,7 @@ Examples
 ## Tests cases
 
 ```java
-import co.com.alejolabs.MainApplication;
+import co.com.alejolabs.challenge1.Challenge1MainApplication;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.parallel.Execution;
@@ -28,7 +28,7 @@ import org.junit.jupiter.api.parallel.Execution;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MainApplicationTest {
-    private MainApplication checker = new MainApplication();
+    private challenge1.Challenge1MainApplication checker = new challenge1.Challenge1MainApplication();
 
     @Test
     void testValid() {

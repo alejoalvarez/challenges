@@ -12,7 +12,7 @@ Se requiere realizar un algoritmo que valide si dos palabras son anagramas
 ## Tests cases
 
 ```java
-import com.co.main.MainApplication;
+import com.co.main.challenge1.Challenge1MainApplication;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -21,15 +21,15 @@ class test1 {
 
     @Test
     public void tests() {
-        assertEquals(true, MainApplication.isAnagram("Conservadora","conversadora"));
-        assertEquals(true, MainApplication.isAnagram("Irónicamente","renacimiento"));
-        assertEquals(true, MainApplication.isAnagram("Escandalizar","zascandilear"));
-        assertEquals(true, MainApplication.isAnagram("Frase","fresa"));
-        assertEquals(true, MainApplication.isAnagram("Cárro","corra"));
-        assertEquals(false, MainApplication.isAnagram("hola","holas"));
-        assertEquals(true, MainApplication.isAnagram("hola1","h1ola"));
-        assertEquals(true, MainApplication.isAnagram("hola11","h1ola 1"));
-        assertEquals(false, MainApplication.isAnagram("hola","holas"));
+        assertEquals(true, challenge1.Challenge1MainApplication.isAnagram("Conservadora","conversadora"));
+        assertEquals(true, challenge1.Challenge1MainApplication.isAnagram("Irónicamente","renacimiento"));
+        assertEquals(true, challenge1.Challenge1MainApplication.isAnagram("Escandalizar","zascandilear"));
+        assertEquals(true, challenge1.Challenge1MainApplication.isAnagram("Frase","fresa"));
+        assertEquals(true, challenge1.Challenge1MainApplication.isAnagram("Cárro","corra"));
+        assertEquals(false, challenge1.Challenge1MainApplication.isAnagram("hola","holas"));
+        assertEquals(true, challenge1.Challenge1MainApplication.isAnagram("hola1","h1ola"));
+        assertEquals(true, challenge1.Challenge1MainApplication.isAnagram("hola11","h1ola 1"));
+        assertEquals(false, challenge1.Challenge1MainApplication.isAnagram("hola","holas"));
     }
 }
 ```
@@ -40,7 +40,7 @@ package com.co.main;
 
 import java.util.Arrays;
 
-public class MainApplication {
+public class challenge1.Challenge1MainApplication {
 
    /* public static void main(String[] args) {
 
