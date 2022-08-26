@@ -1,4 +1,5 @@
-import challenge1.*;
+package challenge1;
+
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.util.*;
