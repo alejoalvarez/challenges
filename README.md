@@ -37,5 +37,22 @@ spinWords("This is another test") => "This is rehtona test"
 
 </details>
 
+<details>
+<summary>Challenge 3:</summary>
+
+# Description:
+
+An algorithm is required that validates if two words are anagrams
+
+Example:
+
+```java
+fresa, frase => true
+amor, romas => false
+amor, roma => true
+ironicamente, renacimiento => true
+```
+
+</details>
  
 
